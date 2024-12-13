@@ -1,6 +1,7 @@
 .sidebar_a4d4d9>.container_ee69e0,
 .sidebar_a4d4d9>.privateChannels_f0963d{
   margin-bottom: 0!important;
+  transform: translateY(130px);
 } 
 .container_ee69e0 .content_eed6a8::before {
   height: 15vh!important;
@@ -9,7 +10,12 @@
   margin-top: -10vh;
 }
 
-.inner_adcaac{display: none;}
+.inner_adcaac{
+  padding-top: 25px;
+  margin-top: 25px;
+  padding-bottom: 25px;
+  transform: translateY(150px);
+}
 
 #app-mount .panels_a4d4d9{
   order: -1;
@@ -36,5 +42,5 @@
 }
 
 .animatedContainer_fd6364,
-.content_eed6a8>div[aria-hidden="false"][style="height: 84px;"]
+.content_eed6a8>div[aria-hidden="true"][style="height: 84px;"]
 {display: none}
